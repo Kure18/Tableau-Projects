@@ -1,0 +1,45 @@
+Insurance_data Dashboard:https://public.tableau.com/app/profile/solomon.kure/viz/InsuranceData_17295069325060/Dashboard1?publish=yes
+Problem Statement
+-A graph showing the relationship between the ages of the parent and the potential claim for each child incase the parent passes-on
+-A graph showing the relationship between the BMI in reference to the individuals age bracket
+-A graph giving the relationship of the ages of people who are prone to blood pressure and are also diabetic
+
+Sheet 1
+-Using drag and drop
+ -From Tables Panel 
+  -Age was selected and then further went to create and selected Bins
+  -Claim Per Child column was created by right clicking on Claim and then went to create then calculated field in which
+   [calim]/[children] and the column was named as Claim Per Child
+  -On Marks Panel
+   -Claim Per Child was dropped and Text was enabled
+  -On Filters Panel 
+   -Gender was dropped and male was the only choosen option
+-Finally the graph was labelled as "Age Vs Claim Per Child"
+
+Sheet 2
+-Using drag and drop
+ -From Tables Panel 
+  -SUM(Bmi) was dropped on columns 
+  -Age(bin) was dropped on rows
+-On Marks 
+ -Detail was enabled on Gender
+ -color was enabled on Gender
+ -Text was enabled on Gender
+-Furthermore from the analysis of our graph you can see that the age for the highest bmi for the fenmale is 60 years and 
+for the male is 42 years
+Finally the graph was labelled as "BMI Vs Age"
+Sheet 3
+-Using drag and drop
+ -From Tables Panel 
+  -Bloodpressure was dropped on columns,using the drop down measure(Count(Distinct)) was selected
+  -Age was selected ,then create and Bins was finally selected
+ -On Marks Panel
+  -Detail was enabled on Gender 
+  -color was enabled on Diabetic
+  -Text was enabled on Diabetic
+-From the analysis,people at the age 49 with a blood pressure of 19 who were diabetic were the highest meanwhile people 
+of the age of 28 were the least with a blood pressure of 18 and they are not diabetic
+Finally the graph was labelled as "Blood Pressure Vs Age"
+
+
+ 
