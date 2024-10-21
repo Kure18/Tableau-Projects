@@ -1,0 +1,43 @@
+Walmart Dashboard:https://public.tableau.com/app/profile/solomon.kure/viz/walmart_17294802802950/Dashboard1?publish=yes
+Problem Statement
+-The relationship between unemployment and numerous stores with their corresponding weeekly sales
+-Visualization of Date vs Holiday Flag
+-Graphical presentation of CPI(bin) Vs SUM(Temperature)
+-Relationship of Fuel Price(bin) Vs Difference in Temperature
+
+Sheet 1
+-Using drag and drop
+ -On Tables Panel i clicked on Unemployment,when to create and then selected bins to Unemployment(bin)
+ -Dragged and dropped Unemployment on rows and Store
+ -On Marks Panel Measure Names color was enabled
+Finally the graph was labelled as "Graph of Unemployment(bin)  Vs SUM(Store)"
+
+Sheet 2
+-Using drag and drop 
+ -On Tables Panel 
+  -Date was dragged and dropped on columns
+  -Holiday Flag was dragged and dropped on rows, and then on its drop down i selected average
+  -On Marks Panel
+   -Using drag and drop
+    -Weekly Sales was dropped and Detail was enabled
+ -Furthermore,on the Filters Panel
+  -Date was dropped and using its drop down Month was selected
+Finally labelled it as "Date Vs Holiday Flag"
+Sheet 3
+-Using drag and drop
+ -On Tables Panel i clicked on CPI and using its drop down i went to create and selected bin which created CPI(bin)
+ -Then dropped CPI(bin) on columns
+ -Then dropped CPI on rows and using its drop down i selected measure and finally selected count
+ -Then dropped Temperature on rows i went to measure and selected SUM
+ -On Marks Panel
+  -CPI(bin) was dropped and Label was enabled
+Finally labelled it as "CPI(bin)  Vs SUM(Temperature)"
+Sheet 4
+-Using drag and drop 
+ -On Tables Panel 
+  -Fuel Price was clicked and using its drop down i went to create and selected bin to create Fuel Price(bin)
+  -Temperature was dropped on rows and using the drop down i went to measure and selected SUM thereby creating SUM(Temperature)
+  On Marks Panel
+  -SUM(Temperatue) was dropped and color was enabled
+  -SUM(Temperature) was dropped and Label was enabled
+Finally labelled it as "Fuel Price(bin) Vs SUM(Temperature)"
